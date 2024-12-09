@@ -31,9 +31,9 @@ const RestaurantImages = () => {
                 </div>
             </div>
             <div className="overflow-auto h-4/5">
-                <div class="m-10 columns-3">
+                <div className="m-10 columns-3">
                     {images?.map((i) => (
-                        <img class="w-full aspect-auto" src={`${process.env.REACT_APP_END_URL}/${i}`} />
+                        <img className="w-full aspect-auto" src={`${process.env.REACT_APP_END_URL}/${i}`} />
                     ))}
                 </div>
             </div>
